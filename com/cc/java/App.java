@@ -19,12 +19,14 @@ public class App {
         
     }
 
+    // pooll() für Bees
     private static void pollObj(HoneyBee obj) {
         output(obj.doYourJob());
         output(obj.fly());
         output("---------------------");
     }
 
+    // Überladen für Bird(s) ...
     private static void pollObj(Bird obj) {
         output(obj.hasFeathers());
         output(obj.fly());
